@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Магазин Техномарт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="page-body">
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-wrapper">
+          <a class="header-logo">
+            <img src="/photo/header-logo.png" width="220" height="47" alt="логотип">
+          </a>
+          <form class="header-search" action="#" method="GET">
+            <label class="visually-hidden" for="search-form">Поиск:</label>
+            <input class="search-input" type="search" id="search-form">
+          </form>
+          <ul class="header-top-list">
+            <li class="header-left-item">
+              <a class="header-top-link" href="#">Закладки: 0</a>
+            </li>
+            <li class="header-right-item">
+              <a class="header-top-link" href="#">Корзина: 10</a>
+            </li>
+          </ul>
+          <a class="header-order" href="#">Оформить заказ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="header-middle">
+        <h1 class="header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+        <!--Логичнее разделить header-middle на три элемента - title, contacts, user-navigation (account-nav, account-box)-->
+        <div class="header-middle-contacts">
+          <a class="header-contacts header-contacts--phone" href="tel:+78125550555">8-812-555-05-55</a>
+          <p class="header-contacts header-contacts--adress">г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+        </div>
+        <div class="header-user-nav">
+          <button class="nav-button button-login">Равшан Джамшутович</button>
+          <ul class="user-list">
+            <li class="user-item">Мои заказы</li>
+            <li class="user-item">Личный кабинет</li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="site-navigation">
+        <ul class="site-list">
+          <li class="site-item"><a class="site-link" href="#">Главная</a></li>
+          <li class="site-item"><a class="site-link" href="#">Компания</a></li>
+          <li class="site-item"><a class="site-link" href="#">Каталог</a></li>
+          <li class="site-item"><a class="site-link" href="#">Новости</a></li>
+          <li class="site-item"><a class="site-link" href="#">Спецпредложения</a></li>
+          <li class="site-item"><a class="site-link" href="#">Доставка</a></li>
+          <li class="site-item"><a class="site-link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
