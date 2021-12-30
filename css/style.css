@@ -165,22 +165,29 @@ color:var(--basic-white);
   line-height: 21px;
   font-weight: 400;
   
-  padding-top: 12px;
+  /* padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 7px;
-  margin-top: 0;
+  padding-right: 10px; */
+    margin-top: 0;
   
+}
+
+.account {
+  margin-bottom: 7px;
+  background-color: var(--basic-white);
+  text-align: center;
+  padding: 12px;
 }
 
 .user-list {
   list-style: none;
-  /* display: flex; */
-  max-width: 250px;
+  display: flex;
+  min-width: 250px;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  color:#000000;
 }
 
 .user-item{
