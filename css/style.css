@@ -63,7 +63,7 @@ background-color: #293449;
 
 .header-logo {
   width: 220px;
-  height: 47px;
+  height: 42px;
 }
 
 .header-middle {
@@ -88,7 +88,7 @@ background-color: #293449;
 .header-top-list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -98,15 +98,15 @@ background-color: #293449;
   margin-right: 38px;
 }
 
-/* .header-right-item{
-  margin-right: 26px;
-} */
+.header-right-item{
+  margin-right: 0;
+}
 
 .header-top-link {
 color:var(--basic-white);
 }
 
-.header-right-item {
+.item-catalog {
   color:var(--basic-white);
   background-color: #EE3643;
   width: 136px;
@@ -124,8 +124,8 @@ color:var(--basic-white);
   background-color: #63A63E;
   width: 150px;
   text-align: center;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 11px;
+  padding-bottom: 10px;
   padding-right: 16px;
   padding-left: 19px;
 }
@@ -156,7 +156,42 @@ color:var(--basic-white);
   text-align: center;
 }
 
-.nav-button {
+ .username {
+  color:#000000;
+  max-width: 299px;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 7px;
+  margin-top: 0;
+  background-color: var(--basic-white);
+}
+
+.user-list {
+  list-style: none;
+  display: flex;
+  max-width: 210px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.user-item{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--basic-black);
+  margin-right: 31px;
+}
+.user-item:nth-child(2){
+  margin-right: 0;
+}
+
+  .nav-button {
   color: var(--basic-black);
   font-family: "Cuprum";
   font-size: 21px;
