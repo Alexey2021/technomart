@@ -156,26 +156,28 @@ color:var(--basic-white);
   text-align: center;
 }
 
- .username {
+ .authorized-user {
+   display: flex;
+   flex-direction: column;
   color:#000000;
-  max-width: 299px;
+  min-width: 299px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 400;
-  text-align: center;
+  
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 7px;
   margin-top: 0;
-  background-color: var(--basic-white);
+  
 }
 
 .user-list {
   list-style: none;
-  display: flex;
-  max-width: 210px;
+  /* display: flex; */
+  max-width: 250px;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
